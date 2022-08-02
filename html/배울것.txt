@@ -1,0 +1,62 @@
+JAVA WEB APPLICATION
+web browser에서 돌아가는
+ex) chrome, edge 등
+
+server란:
+JAVA
+SERVLET/JSP
+SPRING MVC
+v
+broser(client):
+server가 제공한 code 받은 후 표시
+html
+css, bootstrap
+javascript
+jquery
+
+database:
+sql
+
+vscode 설치
+폰트 설정: D2coding, Consolas, 'Courier New', monospace
+
+html 강의: w3schools
+
+git hub 사용법(버전관리 프로그램)
+: git scm설치 
+-> got bas실행 
+-> 폰트 d2coding 
+-> $ git config --global user.name "John Doe"
+-> $ git config --global user.email johndoe@example.com 
+-> 확인 방법: $ git 
+-> 해당 폴더 우측버튼 git bash here (제목표시줄 마지막에 해당폴더 루트 확인)
+-> $ git init
+-> $ git add .
+-> $ git commit -m "first commit"
+-> $ git status (마지막 단어 here 확인)
+-> github 로그인
+-> 우측 상단 '+' 버튼 클릭 후 'New repository' 클릭
+-> repository name 지정 후 'create repository' 클릭
+-> git remote ad ~~~ 해당 문단 복사
+-> 두번쨰 열린 bash에 붙여넣기
+-> $ git push -u origin master (로그인창 확인)
+-> Sign in with your browser 클릭
+-> Authorize 클릭
+-> bash에서 마지막에 ~~/master 확인
+-> git hub 새로고침 후 파일 확인
+-> $ exit 종료
+
+편하게 올리는법
+-> github desktip 설치
+-> login ->finish
+-> 폴더 드래그 앤 드롭 -> add repository (No local changes 확인)
+-> code 변경 후 변화 확인
+-> 코멘트 작성 후 push origin클릭
+-> 깃허브 your repository 에서 확인
+
+집에서
+-> git bash 설치
+-> github desktop 설치 
+-> repository 선택 후 clone 클릭
+-> 빈 동일 경로 생성 및 설정 후  뒤에 repository 이름 지우고 clone 클릭
+-> 폴더 생성 확인
