@@ -24,7 +24,7 @@ html 강의: w3schools
 
 git hub 사용법(버전관리 프로그램)
 : git scm설치 
--> got bas실행 
+-> git bas실행 
 -> 폰트 d2coding 
 -> $ git config --global user.name "John Doe"
 -> $ git config --global user.email johndoe@example.com 
@@ -60,3 +60,5 @@ git hub 사용법(버전관리 프로그램)
 -> repository 선택 후 clone 클릭
 -> 빈 동일 경로 생성 및 설정 후  뒤에 repository 이름 지우고 clone 클릭
 -> 폴더 생성 확인
+
+<!DOCTYPE html> : html 5버전, 대소문자 구분X

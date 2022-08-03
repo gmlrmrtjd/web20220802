@@ -1,0 +1,21 @@
+Lists
+    ul, ol, attribute
+
+자동정렬
+    ctrl(command) + K + F a
+
+attribute
+    모든 element는 attribute를 가질 수 있음
+    시작tag에만 들어감
+    attribute name = "value" (작은따옴표 가능)
+    해당 콘텐츠에만 영향을 가짐
+
+Link
+    <a href="url"><a>
+
+진법
+    16 : hex
+    10 : DEC
+    8 : OCT
+    2 : BIN
+
