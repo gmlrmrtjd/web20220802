@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* attribute selector [attrName] */
+        /* href 속성이 있는 요소들 선택 */
+        [href] {
+            background-color: yellow;
+        }
+        [title] {
+            border: 5px solid;
+        }
+        a[target="blank"] {
+            background-color: red;
+        }
+        [href="http://www.google.com"] {
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- (a>lorem1^br)*5 -->
+    <a href="http://www.daum.net" title="다음">Lorem.</a><br>
+    <a href="http://www.google.com" target="_blank">Animi!</a><br> 
+    <!-- _blank : 새 탭에서 열림 -->
+    <a href="http://www.naver.com">Fugit.</a><br>
+    <a href="">Ipsa!</a><br>
+    <a href="">Enim?</a><br>
+</body>
+
+</html>

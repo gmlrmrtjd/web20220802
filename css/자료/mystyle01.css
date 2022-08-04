@@ -1,0 +1,10 @@
+.my-table {
+    border: 5px solid black;    /* border: 외곽선 */
+    border-collapse: separate;
+    width: 100%         /* width: 너비간격 */
+}
+.my-table td {            /* 각 칸별 설정 */
+    border: 1px solid black;
+    padding: 5px;        /* padding: 높이 간격 */ 
+}
+/* table tr행(가로) td열(세로) */

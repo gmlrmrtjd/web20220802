@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            color:brown;
+        }
+        
+        .fire {
+            text-decoration: underline;
+        }
+
+        /* 
+        id selector(선택자) ex) #id {color:blue;}
+        */
+        /* 
+        id 속성(attribute)으로 요소 선택 
+        */
+        /* 
+        id 속성값은 같은 페이지 내에서 
+        서로 다른 요소가 같은 값을 가질 수 없음
+        (같은 id가 두개이상 있으면 안됨) 
+        */
+        /* 
+        id 속성값으로 사용할 수 있는 문자
+        = 영문대소문자, 숫자, -, _
+         */
+        #head1 {
+            background-color:yellow;
+        }
+
+        #head2 {
+            border: 10px solid; 
+            /* border: 테두리 */
+        }
+    </style>
+</head>
+<body>
+    <!-- h1*10>lorem2 -->
+    <h1 class="fire">Lorem, ipsum.</h1>
+    <h1 class="fire">Est, vero.</h1>
+    <h1 id="head1">Quaerat, in?</h1>
+    <h1 id="head1">Totam, rem.</h1> <!-- 이렇게 id selector는 같게 2개 있으면 안됨 -->
+    <h1 id="head2">Deleniti, ea!</h1>
+    <h1>Tempore, doloribus?</h1>
+    <h1>Non, labore.</h1>
+    <h1>Ipsum, cum!</h1>
+    <h1>Aliquam, autem!</h1>
+    <h1>Laborum, at.</h1>
+</body>
+</html>

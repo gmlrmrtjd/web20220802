@@ -1,0 +1,56 @@
+<!-- https://www.w3schools.com/cssref/css_selectors.asp -->
+!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            font-size: 2em;
+        }
+        p {
+            font-size: 2em;
+        }
+
+        /* group selector */
+        h1, p { /* element 두개이상 선택법 */
+            color: blue;
+        }
+
+        .note { /* note class만 */
+            background-color: yellow;
+        }
+
+        h1.note { /* h1 element 이면서 note class 인것만 */
+            text-decoration: underline;
+        }
+
+        p.note {
+            border: 5px solid;
+        }
+        
+        h1.fire {
+            background-color: red;
+        }
+
+        h1#head3 {
+            font-size: 3em;
+        }
+
+        h1#head4.special.note {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- h1*5>lorem2^p*5>lorem3 -->
+    <h1 class="note">Lorem, ipsum.</h1>
+    <h1 class="note fire">Consequatur, quibusdam.</h1>
+    <h1 id="head3">Rem, inventore!</h1>
+    <h1 id="head4" class="special note">Accusamus, ratione?</h1>
+    <h1>Rerum, cumque?</h1>
+    <p class="note">Lorem, ipsum dolor.</p>
+    <p>Minima, unde facilis!</p>
+    <p>Quo, odio voluptatum.</p>
+    <p>Ducimus, assumenda libero.</p>
+    <p>Labore, earum cumque.</p>
+</body>
+</html>

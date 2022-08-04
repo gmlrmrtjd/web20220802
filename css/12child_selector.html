@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- >, +, ~ 구분 알기 -->
+    <style>
+        p {
+            text-decoration: underline;
+        }
+
+        .error > p {
+            background-color: yellow;
+        }
+
+        div > p {
+            border: 3px solid;
+        }
+    </style>
+</head>
+<body>
+    <!-- .note>.error>p>lorem -->
+    <div class="note">
+        <div class="error">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo omnis minima laborum mollitia explicabo, sunt quidem odio accusamus sapiente itaque quos illum. Eos dolore molestiae consequuntur, cupiditate dicta corrupti neque.
+            </p>
+        </div>
+    </div>
+
+    <!-- .error>.note>p>lorem -->
+    <div class="error">
+        <div class="note">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, et illum nesciunt fugit hic in iusto corporis cupiditate. Rem qui, molestias sequi laudantium magni eius at exercitationem sunt quis ipsa.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
