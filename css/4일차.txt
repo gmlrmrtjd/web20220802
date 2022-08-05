@@ -3,3 +3,8 @@ css box model
 - border-style 있어야함
 - padding
 - margin
+
+emmet 콘텐츠 넣을떄 {$}형식으로 넣ㅇ면 됨
+
+flexbox, grid
+flexbox: 블럭을 세로가 아님 가로로 만들기 위해 쓰임

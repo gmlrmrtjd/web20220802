@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item {
+            font-size: 48px;
+        }
+        .item:nth-child(odd) {
+            background-color: gold;
+        }
+        .item:nth-child(even) {
+            background-color: brown;
+        }
+        .container {
+            display: flex;
+            border-color: rgb(168, 111, 36);
+        }
+    </style>
+</head>
+<body>
+    <!-- .container>.item*5{5} -->
+    <!--style="flex": 남은 영역 자리 차지 비율, flex grow를 flex라고 짤게 쓴다(기본이 0)-->
+    <div class="container">
+        <div class="item">5</div>
+        <div class="item">5</div>
+        <div class="item">5</div>
+        <div class="item">5</div>
+        <div class="item">5</div>
+    </div>
+</body>
+</html>
