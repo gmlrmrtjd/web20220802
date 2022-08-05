@@ -1,0 +1,5 @@
+css box model
+- border: 테두리
+- border-style 있어야함
+- padding
+- margin
