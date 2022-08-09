@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <style>
         h1 {
             color: blue;
         }
+
         /* pseudo class 는 ':' 으로 시작 */
         h1:hover {
             color: yellow;
         }
-        
+
         h1:active {
+            color: red;
+        }
+
+        /* visited link */
+        a:visited {
+            color: green;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: hotpink;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+        }     
+        a:link {
             color: red;
         }
 
 
     </style>
 </head>
+
 <body>
     <a href="https://www.daum.net">다음</a>
 
@@ -24,4 +45,5 @@
         lorem.
     </h1>
 </body>
+
 </html>
