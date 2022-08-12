@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <!-- h1#head$*10>lorem1 -->
+    <h1 id="head1">Lorem.</h1>
+    <h1 id="head2">Eaque.</h1>
+    <h1 id="head3">Eius!</h1>
+    <h1 id="head4">Dolor.</h1>
+    <h1 id="head5">Debitis.</h1>
+    <h1 id="head6">Commodi.</h1>
+    <h1 id="head7">Ut.</h1>
+    <h1 id="head8">Ipsam?</h1>
+    <h1 id="head9">Provident.</h1>
+    <h1 id="head10">Eligendi.</h1>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+    // a.innerHTML: a의 컨텐트
+    // body element 나오기 전에 해야 안전
+    let a = document.querySelector("#head1");
+
+    a.innerHTML = "점심시간"; // innerHTML: 안의 콘텐츠를 뜻함
+    console.log(a);
+
+    // head2 아이디 요소의 컨텐트를 "뭐먹지"로 교체
+    let b = document.querySelector("#head2");
+    b.innerHTML = "뭐먹지?";
+
+    // head3, head4, head5 아이디 요소의 컨텐트 교체
+    let c = document.querySelector("#head3");
+    let d = document.querySelector("#head4");
+    let e = document.querySelector("#head5");
+    c.innerHTML = "한식";
+    d.innerHTML = "중식";
+    e.innerHTML = "양식";
+    console.log(c);
+    console.log(d);
+    console.log(e);
+
+    
+    </script>
+</body>
+</html>

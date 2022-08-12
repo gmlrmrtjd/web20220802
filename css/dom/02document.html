@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <!-- h1#head$*10>lorem1 -->
+    <h1 id="head1">Lorem.</h1>
+    <h1 id="head2">Distinctio.</h1>
+    <h1 id="head3">Suscipit!</h1>
+    <h1 id="head4">Voluptate!</h1>
+    <h1 id="head5">Perferendis?</h1>
+    <h1 id="head6">Similique.</h1>
+    <h1 id="head7">Officia.</h1>
+    <h1 id="head8">Voluptates!</h1>
+    <h1 id="head9">Dolores?</h1>
+    <h1 id="head10">Amet?</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+    // document.getElemntById() : id값을 가지고 element를 얻어와라
+    let a = document.getElementById("head")  // css문법을 받은거라 # 안붙임
+    console.log(a);
+
+    console.log(document.getElementById("head2"));
+    console.log(document.getElementById("head3"));
+
+
+    // document.querySelector()
+    let b = document.querySelector("#head4");   // css quary 문법을 따르믈 # 붙임
+    console.log(b);
+    console.log(document.querySelector("#head5"));
+
+
+    // head6, head7 id인 요소 getElementById로 document에서 얻어서 출력
+    let c = document.getElementById("head6");
+    console.log(c);
+    let d = document.getElementById("head7");
+    console.log(d);
+
+    // head8, head9 id인 요소 querySelector로 document에서 얻어서 출력
+    let e = document.querySelector("#head8");   // css quary 문법을 따르믈 # 붙임
+    console.log(e);
+    let f = document.querySelector("#head9");   // css quary 문법을 따르믈 # 붙임
+    console.log(f);
+
+</script>
+
+
+
+
+
+</body>
+</html>
