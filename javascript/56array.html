@@ -7,35 +7,35 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
-    <!-- table.table.table-hover>thead>tr>th*4>lorem1^^^tbody.tr*3>td*4>lorem1 -->
-    <table class="table table-hover">
-        <thead>
-            <tr>
-                <th>Lorem.</th>
-                <th>Quae.</th>
-                <th>Quaerat.</th>
-                <th>Porro.</th>
-            </tr>
-        </thead>
-        <tbody class="tr">
-            <td>Lorem.</td>
-            <td>Sapiente!</td>
-            <td>Soluta?</td>
-            <td>Vero!</td>
-        </tbody>
-        <tbody class="tr">
-            <td>Lorem.</td>
-            <td>Accusamus.</td>
-            <td>Magni?</td>
-            <td>Minus!</td>
-        </tbody>
-        <tbody class="tr">
-            <td>Lorem.</td>
-            <td>Facere.</td>
-            <td>Maxime.</td>
-            <td>Voluptate?</td>
-        </tbody>
-    </table>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+    score = [40, 50, 60, 70, 80, 90, 100,];
+    sum2 = 0;
+    for (let i = 0; i < score.length; i++) {
+        // console.log(score[i]);
+        // sum = sum + score[i];
+        if (score[i] >= 80) {
+            sum2 = sum2 + score[i];
+            console.log(score[i]);
+        }
+    }
+    console.log(sum2);
+    // 80점 이상 점수만 합한 값
+
+    console.log("합", sum);
+    console.log("평균", sum / scores.length);
+
+    // 80점이상인 점수만 더한 값을 구해서 출력
+
+    sum = 0;
+    for (let i = 0; i < scores.length; i++) {
+        if (scores[i] >= 80) {
+            sum += scores[i];
+        }
+    }
+
+    
+    </script>
 </body>
 </html>
