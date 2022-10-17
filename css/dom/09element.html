@@ -11,8 +11,8 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
-<body>
-    <img src="pic_bulboff.gif" alt="img1">
+<body> 
+    <img src="pic_bulboff.gif" alt="img1" id="img1">
     <!-- button#btn$*2 -->
     <button id="btn1">켜기</button>
     <button id="btn2">끄기</button>
@@ -21,8 +21,10 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
     <script>
-        documnet.querySelector("#btn1").addEventListener("click", function() {
+        document.querySelector("#btn1").addEventListener("click", function() {
             document.querySelector("#img1").setAttribute("src", "pic_bulbon.gif");
+            document.querySelector("#img1").setAttribute("title", "불 들어온 전구");
+
         });
 
         document.querySelector("#btn2").addEventListener("click", function() {

@@ -33,14 +33,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script>
         // CLICK 글자 클릭하면 안에 있는 p요소 두 개의 .d-none 클래스가 toggle 되도록 작성
-        let div = document.querySelectorAll("div");
-        for (let i = 0; i < div.lenth; i++) {
-            div[i].addEventListener("click", function() {
+        let divs = document.querySelectorAll("div");
+        for (let i = 0; i < divs.length; i++) {
+            divs[i].addEventListener("click", function() {
                 let paras = this.querySelectorAll("p");
                 for (let j = 0; j < paras.length; j++) {
                     paras[j].classList.toggle("d-none");
                 }
-                
             })
         }
 
